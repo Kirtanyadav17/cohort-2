@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    justify-content:space-evenly;
+    
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}

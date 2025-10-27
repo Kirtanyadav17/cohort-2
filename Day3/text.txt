@@ -1,0 +1,11 @@
+topics covered :- absolute position, relative position,fixed position,sticky
+
+absolute:- koi bhi element par absolute lagane se vo element upar uth jata hai, aur uski jagah khali ho jati hai, and uski jagah par phir uske baad vala element aa jata hai 
+
+top left bottom right and z-index ye 5 properties sirf tabhi kam karti hai jab apke element ke pass position ki koi bhi value ho jaise (absolute relative sticky)
+
+relative:- jis div ki position absolute dete hain uske parent div ko agar position:relative; dede to fir jab andar vale div ke upr ham 5 properties use karenge to vo parent div ke respect me hogi na ki screen ke (ex: agar top:50%; diya to parent div se 50% niche hoga)
+
+
+fix :- jab parent div bohot jyada bda ho jese ki body ko agar bohot bda krde ki page ko scroll krna pde, tab uske andar agar child div hoga uski position agar fix kar denge to piche vala scroll hoga but child div fixed rahega(aage piche nahi hoga)
+

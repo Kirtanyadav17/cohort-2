@@ -1,0 +1,9 @@
+todays topic :- display flex,align items,justify content, gap
+
+1) display :- flex (isko tab use karte hain jab koi items ya divs vertically line me ho aur unko horizontal shift karna ho)
+
+2)align item :- (center,flex-end,flex start) => (center :- jab display flex use karte hain uske baad items horizontal ho jate hain aur screen ke top par chale jate hain to ye property unko vertically center me le aati hai) (flex-start,end :- isse items ko vertically top ya bottom pr le jaate hain)
+
+3) justify content:-(center,flex-end,start,space between) => (center :- ye items ko x axis pr center me lata hai) (end, start :- ye x axis pr left ya right me laate hain) (space between :- jab ham center vali property use krte to sare center me to aate hain pr ekd sure se chipke hote hain ye property sabke bic me space de deti hai aur msot right and left vale ko ekd um boundry pr le jati hai )
+
+4) gap => ye property items ke bich me gap deti hai 

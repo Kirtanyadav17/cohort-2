@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(D:\Cohort2\HelveticaNowDisplay-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+height: 100%;
+width: 100%;
+}
+
+#nav{
+    height: 55px;
+    width: 100%;
+    font-size: 18px;
+    font-family: Helvetica;
+    background-color: rgb(68, 65, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-weight: 100;
+}
+
+#nav,a{
+    color: white;
+    text-decoration: none;
+}
+
+#center{
+    height: 80%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+
+#center img{
+    height: 253px;
+    width: 720px;
+
+}
+
+#center h1{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#center h3{
+     font-family: Helvetica;
+    font-weight:100;
+}
+
+#links{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+#links button{
+    font-family: Helvetica;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+   
+}
