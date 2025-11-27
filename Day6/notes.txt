@@ -1,0 +1,15 @@
+1) Z index :- ye ek property hai jo ki position absolute krne ke baad use hoti hai,position absolute se saare boxes jab upr uth jate hain to , phir ye property unke bich priority set krti hai(i.e jiska z-index jyada vo box sabse upr and so on)
+
+2) transform: translateX,Y(100%); :- ye property box ke respect me use move krti hai jaise agar x axis me 100% kiya, to box agar 100px ka hai to 100px shift ho jayega
+
+3) clip path :- is property se square box ko aur koi sa bhi shape de sakte hain(direct google search krna hai)
+
+4)  flex-direction:column; :- this property interchange the x and y axis, so now the properties like align item, which shift box in vertical will now in horizontal and vice versa 
+
+5) flex-wrap:wrap; :- Jab hum display: flex lagate hain, to by default saare boxes ek hi row me adjust hote rehte hain aur next line me shift nahi karte. Wo space ke hisaab se shrink ya squeeze ho jaate hain.
+flex-wrap: wrap isliye use karte hain, taaki agar row me space khatam ho jaye, to extra boxes agle row me move ho jaye instead of shrinking the existing ones.
+
+6) flex-shrink: Ye flex item ki shrink hone ki ability decide karti hai, jab container me space kam ho.
+Default value 1 hoti hai (matlab item shrink ho sakta hai). 0 karne se shrink nahi hoga.
+
+7) overflow: auto: Agar content box ki limit se zyada ho, to browser sirf need hone par scrollbar add kar deta hai (auto-decide).

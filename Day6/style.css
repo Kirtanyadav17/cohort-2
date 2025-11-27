@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+html,body{
+   height: 100%; 
+   width: 100%;
+}
+
+/* #box1{
+height: 100px;
+width: 100px;
+background-color: crimson;
+position: absolute;
+top: 40%;
+left: 40%;
+z-index: 1;
+}
+#box2{
+height: 100px;
+width: 100px;
+background-color: pink;
+position: absolute;
+left: 45%;
+top: 40%;
+z-index: 5;
+}
+#box3{
+height: 100px;
+width: 100px;
+background-color: chocolate;
+position: absolute;
+left: 48%;
+top: 40%;
+z-index: 1;
+}     */
+
+
+/* #box1{
+height: 100px;
+width: 100px;
+background-color: crimson;
+
+}
+#box2{
+height: 100px;
+width: 100px;
+background-color: pink;
+transform: translateY(100%);
+
+}
+#box3{
+height: 100px;
+width: 100px;
+background-color: chocolate;
+transform: translateX(100%);
+} */
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+}
+
+#box1{
+height: 130px;
+width: 130px;
+background-color: crimson;
+border: 2px solid white;
+flex-shrink: 0;
+
+}
+#box2{
+height: 130px;
+width: 130px;
+background-color: pink;
+border: 2px solid white;
+flex-shrink: 0;
+}
+#box3{
+height: 130px;
+width: 130px;
+background-color: chocolate;
+border: 2px solid white;
+flex-shrink: 0;
+}
+#box4{
+height: 130px;
+width: 130px;
+background-color: rgb(132, 95, 68);
+border: 2px solid white;
+flex-shrink: 0;
+}
+#box5{
+height: 130px;
+width: 130px;
+background-color: rgb(122, 83, 55);
+border: 2px solid white;
+flex-shrink: 0;
+}
