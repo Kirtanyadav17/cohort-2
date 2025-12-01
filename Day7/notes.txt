@@ -1,0 +1,12 @@
+1) transform:rotatex,y,z(" "deg) :- isse div ko rotate kr sakte hain x y ya z axis ke along
+
+2) perspective:_px :- ye property mostly body ko di jati hai ,iska matlab hai ki ham screen ko kitte pass se ya durr se dekh re jese agar mene image x axis pr rotate ki aur durr se dekhunga to km change dikhaega pass se dekhunga to jyada hi dikhega 
+
+3) transform:scale(1); :- 1 matlab object ka original size, 2 matlab double and so on 
+
+4) overflow:- hidden :- Jab kisi box/div ke andar ka content uski boundary (size) se bahar nikal jata hai, to overflow: hidden; extra bahar wale part ko hide (cut) kar deta hai. Scrollbar bhi nahi aati, bas jo box ke andar fit hoga wahi dikhai deta hai.
+
+* Note :- position: absolute; child ko document flow se hata deta hai (no space in parent).Agar parent me position: relative; na ho, to child ka 100% height/width viewport/screen ke hisaab se lagta hai (full-screen ban jata hai).
+Aur parent me relative ho, to 100% parent ki boundary ke respect me lagta hai. 
+
+5) transition me ease/linear/steps/bezier ye timing functions hote hain, jo decide karte hain ki animation ki speed time ke sath kaise change hogi — smooth, constant ya jumps me. ex :-transition:all ease 1s;
