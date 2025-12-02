@@ -1,3 +1,15 @@
 1) display: inline-block; – Ye property element ko same line me show karti hai (inline jaisa) aur saath hi saath width aur height set karne ki freedom bhi deti hai (block jaisa).
 
 2) :nth-child(n) ek CSS selector hai jo parent container ke andar, elements ki position (order) ke basis pe child ko select karta hai.
+
+3) background-clip:text; :- text ke upr image,gif,gradient kuch bhi apply krna ho to ye property deni hot hai , but text color transparent rakhna padta hai 
+
+4) -webkit-text-stroke: 2px red; isse text ko border dete hain
+
+5) Note :- agar bohot sare div ek parent me dalne ho horizontally aur scroll bar chahiye to parentme flex wrap krke , overflow auto kr denge and childs me flexshrink = 0 karenge;
+
+6) #main::-webkit-scrollbar{
+   display: none; 
+}  (scrollbar ko hide krne ke liye )
+
+7) 

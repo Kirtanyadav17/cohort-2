@@ -8,26 +8,30 @@ html,body{
     height: 100%;
     width: 100%;
 }
-.main{
-    height: 100%;
+
+
+#main{
+    height: 250px;
     width: 100%;
-    background-color: black;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 50% 50%;
-   
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow: auto;
 }
 
 .box{
-    border: 2px solid white;
-    background-color: red;
-}     
-
-.box:nth-child(2n){
-    background-color: aqua;
+    height: 100%;
+    width: 300px;
+    background-color: brown;
+    flex-shrink: 0;
 }
 
-
-
+#main::-webkit-scrollbar{
+   background-color: burlywood;
+}
+#main::-webkit-scrollbar-thumb{
+    background-color: rgb(25, 3, 228);
+}
 
 
