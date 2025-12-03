@@ -1,0 +1,17 @@
+units -
+
+1) px(pixels) :- fixed
+
+2) % (percentage) :- depends on parent 
+
+3) vw(viewport width) :- depends on the viewport width
+
+4) vh(viewport height) :- depends on the viewport height
+
+5) vmax :- depends on the max height or width
+
+6) vmin :- depends on the min height or width
+
+7) em :- manlo parent ko 20px diya phir uske child1 ko 1em diya iska matlab 20px aur agar 2em diya matlab 40px (depends on parent)
+
+8) rem :- 16pixels = 1rem

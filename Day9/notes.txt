@@ -1,0 +1,17 @@
+1) hamesha jo imp chize rehti hai jese navbar , header, footer unko hamesha id nahi dete direct unke naam ka tag banate hain isse google searh krte jab website ko tb 
+
+2) grid-template-columns:1fr 1fr minmax(100px, 400px) 1fr;   :- minmax() ka matlab hai ki ab jo third vali column rahegi vo maximum 400px rahegi aur minimun agar shrink karenge to 100px tk jayegi
+
+3) justify-content: center; → Horizontally center (grid)
+   align-content: center; → Vertically center (grid)
+
+4) row-gap → sirf rows ke beech
+   column-gap → sirf columns ke beech
+
+5) grid-template-areas:
+    "header header"
+    "aside section"
+    "footer footer";   (isse ham grid se jo jo bhi boxes aate hain unko naam de dete hain jese isme 2 column 3 row hai)
+
+6).header{ grid-area: header; }(ab ye div upr ke pure dono boxes ki jagah le lega, kyuki dono ka naam header hai)
+

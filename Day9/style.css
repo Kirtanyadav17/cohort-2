@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+height: 100%;
+width: 100%;
+}
+
+/* main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    grid-template-areas: "header header"
+               "aside section"
+               "footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: crimson;
+}
+aside{
+    grid-area: aside;
+    background-color: aqua;
+}
+section{
+    grid-area: section;
+    background-color: lightcoral;
+}
+footer{
+    grid-area: footer;
+    background-color: lightskyblue;
+} */
+
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 200px 1fr;
+   grid-template-areas: "Div1 Div2 Div3"
+                        "Div1 Div4 Div6"
+                        "Div5 Div5 Div6";
+    gap: 5px;    
+    padding: 10px;                
+
+}
+
+div1{
+    grid-area: Div1;
+    background-color: antiquewhite;
+}
+div2{
+    grid-area: Div2;
+    background-color: lightskyblue;
+}
+div3{
+    grid-area: Div3;
+    background-color: darkolivegreen;
+}
+div4{
+    grid-area: Div4;
+    background-color: darkgray;
+}
+div5{
+    grid-area: Div5;
+    background-color: coral;
+}
+div6{
+    grid-area: Div6;
+    background-color: cornsilk;
+}
