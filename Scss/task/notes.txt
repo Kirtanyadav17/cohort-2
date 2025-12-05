@@ -1,0 +1,10 @@
+1) flex-grow :- Jitni bhi extra space bachi hoti hai flex container ke andar,
+flex-grow batata hai ki kaunsa item kitna space le lega.
+
+Matlab: flex-grow: 0 → Extra space mat lena
+        flex-grow: 1 → Extra space ko equal baant lena
+        flex-grow: 2 → Dusre se 2x jyada extra space le lena
+
+ 2) cubic-bezier() ek CSS timing function hai jo animation ya transition ki speed-curve define karta hai.
+Isme hum chaar numeric values (x1, y1, x2, y2) dete hain jo animation ka start, middle, aur end kitna fast ya slow chalega, ye decide karte hain.
+Iske through hum apni marzi ka custom easing effect bana sakte hain.                                                           

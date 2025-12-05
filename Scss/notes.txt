@@ -1,0 +1,7 @@
+scss(sassy css) :- ye ek css ka aadvance version bol sakte hain, ye css ke code ko aasan aur more structured banane ke kaam me aata hai , browser ko sirf html,css,js samjh aati hai hai, esliye ham ek saas externsion ka use krte hain, jo ki hamari scss file ko css file me convert kr deti hai , isme kuch concepts hote hai 
+
+1) nesting :- isme ham ek hi selecter ke andar aur bhi selector likh sakte hain jisse code jyada arrange lagta hai, like jese html me ek tag ke andar dusra tag hota hai 
+
+2) mixin :- iska main concept ye hai ki, vo code ya properties jo ham frequently use krte hain usko ek block me alag se bana lo jese function hote hain , @mixin likh kr phir function ka naam likh kr uske andar likh do, aur jab bhi kisi selector me use krna ho to @include laga kr function ka naam likh do baas, isme bhi function ke andar variable pass kr sakte hain
+
+3) partials&imports :- isme ham instead of writing everything in the same file, jisse ki code bohot bde ho jaye, ham choti choti file bna lete hain har chiz ki , by (_) in the starting of the file and phir usko @import se import kr lete hain main file me 
